@@ -1,0 +1,53 @@
+TLB
+Low latency associative memory that stores memory address mappings.
+
+Level 1 cache
+High-speed volatile storage that stores copies of memory stored in DRAM.
+
+Segment
+A variable-sized unit of process memory (base and bound are variable) generally used to organize memory usage.
+
+page
+A fixed-sized unit of process memory (base is variable, bound is fixed to one of a small number of values).
+
+lock
+A mechanism for providing exclusive access to a shared resource.
+
+concurrency
+When multiple computations run at the same time and can interact with each other.
+
+mutual exclusion
+The property of only allowing a single computation access to a set of code at any given time, even though multiple computations may attempt to run that code at the same time.
+
+atomic operation
+A small computation that cannot be interrupted.
+
+race condition
+When a concurrent computation produces different results because of differing rates of execution.
+
+memory hierarchy
+A design principle/conceptual model of computer architecture in which information moves between large pools of persistent but slow storage to smaller, faster memory stores.
+
+virtual address
+The memory addresses that are used by processes.
+
+physical address
+The memory addresses that refer to actual memory locations in RAM.
+
+latency
+The time between a request and that request being fulfilled.
+
+bandwidth
+The rate of data transfer.
+
+mmap
+A system call for mapping byte ranges in a file to byte ranges in a process's address space.
+
+locality of reference
+Programs tend to exhibit patterns in their code and data memory accesses. Nearby memory is accessed more frequently than distant memory, and memory accessed in the past is often accessed again in the future.
+
+page table entry
+The upper bits of a physical address along with metadata bits. It is cached in the TLB.
+
+page table
+The data structure that maps virtual addresses to physical addresses.
